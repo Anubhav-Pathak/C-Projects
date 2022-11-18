@@ -4,7 +4,7 @@ A CLI based menu driven File Reader/ Writer program that lets you create/read/wr
 
 ## Screenshots
 
-![Main Menu](./Screenshots/1.png)
+![Main Menu](./Screenshots/1.png) \
 ![Section 2](./Screenshots/2.png)
 
 ## Technologies Used
