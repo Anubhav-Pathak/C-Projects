@@ -17,15 +17,6 @@ typedef struct tm Time;
 void Read();
 void Book();
 int main(){
-    // while(1){
-    //     switch (Menu()){
-    //         case 1: Book(); break;
-    //         case 2: Cancel(); break;
-    //         case 3: Check(); break;
-    //         case 4: break; 
-    //         default: printf("Invalid Input");
-    //     }
-    // }
     Read();
     Book();
     return 0;
@@ -114,8 +105,6 @@ void display_coach(int n){
     pac3 = p*train[n].km+500;
     psl = (p/2)*train[n].km;
     printf("\n\t\t\t%d\t\t%d\t\t%d\t\t%d\nPrice/Person:\t\t%.1f\t\t%.1f\t\t%.1f\t\t%.1f",ac1,ac2,ac3,sl,pac1,pac2,pac3,psl);
-    // printf("Choose Coach: ");
-    // scanf("%d",&c);
     fclose(file);
 }
 void Book(){
